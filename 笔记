@@ -1,0 +1,2 @@
+1、解决递归无法使用变量记录问题：将变量作为参数传入函数
+cats projects // problem unsolved
