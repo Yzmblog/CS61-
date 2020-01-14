@@ -1,3 +1,8 @@
 1、解决递归无法使用变量记录问题：将变量作为参数传入函数
 未解决：cats projects // problem unsolved
 不懂：迭代器，可迭代参数
+    生成新分支(改值)： {function（b） for b in branches（t）}
+2.抽象数据视为整体
+3.静态变量：nonlocal   可用于跟踪位置（类似指针）
+4、nonlocal 在函数里的函数定义内声明函数的参数可以，在外面不行？ 现在内嵌函数外声明 再声明nonlocal python有+= 没有 ++
+
