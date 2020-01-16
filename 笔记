@@ -6,4 +6,5 @@
 3.静态变量：nonlocal   可用于跟踪位置（类似指针）
 4、nonlocal 在函数里的函数定义内声明函数的参数可以，在外面不行？ 现在内嵌函数外声明 再声明nonlocal python有+= 没有 ++
 5、'{0} to {1}'.format(-8, 16) ： 结果：-8 to 16
-
+6、list： a=b 为浅拷贝
+7、生成器 ： yeild 迭代器：iter（） 遍历：next（）
