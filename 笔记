@@ -8,3 +8,5 @@
 5、'{0} to {1}'.format(-8, 16) ： 结果：-8 to 16
 6、list： a=b 为浅拷贝
 7、生成器 ： yeild 迭代器：iter（） 遍历：next（）
+8、 遍历树： for+递归 for遍历树枝
+9、while 循环内 word自动遍历table？
