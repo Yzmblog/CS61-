@@ -13,3 +13,6 @@
 10、nonlocal 与 global ： nonlocal 只能用于嵌套函数  global用于任何地方
 11、__str__ and __repr__
 12、树递归的抽象理解
+13、 interpretor：read：lexer（分析器）+parser（解释器）
+                 evaluation：eval + apply
+                 print
