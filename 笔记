@@ -1,3 +1,6 @@
+A： 最大收获：递归思想 python树、链表
+
+
 1、解决递归无法使用变量记录问题：将变量作为参数传入函数
 未解决：cats projects // problem unsolved
 不懂：迭代器，可迭代参数
@@ -16,3 +19,8 @@
 13、 interpretor：read：lexer（分析器）+parser（解释器）
                  evaluation：eval + apply
                  print
+B：
+编译器作用：
+1、执行前检查错误
+2、加速 实际运行的是二进制文件（.0bj/.class（java）），代码编译而成
+
