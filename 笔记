@@ -25,3 +25,10 @@ B：
 2、加速 实际运行的是二进制文件（.0bj/.class（java）），代码编译而成
 
 git：不要仓内有仓  （文件会呈灰色 打不开）
+
+step into :进入函数内
+step over:跳过函数具体实现
+resume:下一次执行到这里
+step out：跳出函数
+右键可conditional：设置debug条件
+3、new 中 用递归避免改destructive
