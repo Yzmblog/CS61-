@@ -33,3 +33,5 @@ step out：跳出函数
 右键可conditional：设置debug条件
 3、new 中 用递归避免改destructive
 4、数组建立时用变量？？
+5、null 难改， .rest可 （destructive）
+6、8bits ： -128 - 127
