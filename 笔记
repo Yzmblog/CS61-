@@ -35,3 +35,6 @@ step out：跳出函数
 4、数组建立时用变量？？
 5、null 难改， .rest可 （destructive）
 6、8bits ： -128 - 127
+7、双向链表：prev； next; item; 双向 ； sentinel;
+   数组：两个指针：nextFirst， nextLast 
+   两个结构都可用圆环理解;
