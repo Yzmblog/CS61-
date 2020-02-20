@@ -73,6 +73,7 @@ step out：跳出函数
     every object has a static type (defined at compile-time) and a dynamic type (defined at run-time)
     (执行顺序？)
     
+ 10、R(N)∈Θ(N2)
 
 
 
