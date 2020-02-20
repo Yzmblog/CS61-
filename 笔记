@@ -69,7 +69,10 @@ step out：跳出函数
       extends， 可以实现父类，也可以调用父类初始化 this.parent()。而且会覆盖父类定义的变量或者函数。这样的好处是：架构师定义好接口，让工程师实现就可以了。整个项目开发效率和开发成本大大降低。    implements，实现父类，子类不可以覆盖父类的方法或者变量。即使子类定义与父类相同的变量或者函数，也会被父类取代掉。  
       这两种实现的具体使用，是要看项目的实际情况，需要实现，不可以修改implements，只定义接口需要具体实现，或者可以被修改扩展性好，用extends。
   
-  9、
+  9、dynamic and static type:
+    every object has a static type (defined at compile-time) and a dynamic type (defined at run-time)
+    (执行顺序？)
+    
 
 
 
