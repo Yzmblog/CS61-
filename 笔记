@@ -78,3 +78,4 @@ step out：跳出函数
 11、DisjointSet:
 从n 到 logn 路径压缩，存size，root。
 
+12、RingBuffer ： Ring 环形结构
