@@ -81,3 +81,5 @@ step out：跳出函数
 12、RingBuffer ： Ring 环形结构
 
 13 B-tree: 设置一个最大item值L，超过这个值就spliting   更加块 O（logN） 
+
+14 Red-Black Tree （红黑树） 改进二叉树，为了达到和2-3树类似的结构效果（叶到根的距离一样（红线不算）） 加入了红线（连左）
