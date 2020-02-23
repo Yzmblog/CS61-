@@ -79,3 +79,5 @@ step out：跳出函数
 从n 到 logn 路径压缩，存size，root。
 
 12、RingBuffer ： Ring 环形结构
+
+13 B-tree: 设置一个最大item值L，超过这个值就spliting   更加块 O（logN） 
