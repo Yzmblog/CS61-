@@ -85,3 +85,11 @@ step out：跳出函数
 14 Red-Black Tree （红黑树） 改进二叉树，为了达到和2-3树类似的结构效果（叶到根的距离一样（红线不算）） 加入了红线（连左）
 
 15 hash table （哈希表） array + 链表 or set list 来存编码。  hashcode（） + reduce（取余操作） 
+
+16、 heap(堆） complete ： 只能在最底部缺叶，先排左边  大小：儿子>=父亲
+
+17、PQ ： 优先队列？
+
+18、前缀树 ： 有complete功能，只存字符串
+
+19、 多维数据结构： K-d树等等
