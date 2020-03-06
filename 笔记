@@ -90,6 +90,51 @@ step out：跳出函数
 
 17、PQ ： 优先队列？
 
-18、前缀树 ： 有complete功能，只存字符串
+18、前缀树 ： 有complete功能，只存字符串 tries
 
 19、 多维数据结构： K-d树等等
+
+20、图，节点，线
+
+21、最短路径问题 dijkstra
+
+21、最小生成树， 一个图里的子图，包含所有节点 最小权重和  实现：prim 和 kruscal
+
+22、拓扑排序
+
+
+23、 栈（stack） ： 相当于一个桶，后进先出
+     堆（heap） ： 完全树（见16） 插入：O（log（n）） 删除：O（Nlog N）
+     队列（queue）： 只能在队尾插， 队头删  即先进先出 
+
+24、 遍历树： traversal level order：从上倒下 从左到右;  preorder： 从左遍历到底，回来同样的方法向右往底便利
+	     Inorder ： 左中右（对子树也一样） Postorder：左右中
+		遍历图DFS（深度优先搜索）Postorder/preorder
+		BFS：breadth first search
+
+
+25、 图定义（Graph Definition）：节点 + 连接线 （与树不同：可以有回路） 图包含了树
+				简单图：节点不会自己连自己，两个节点之间没有两条平行路
+				一般说的图都是简单图
+				可以分为向量图（directed）和非向量图（undirected）
+
+				节点称为vertices（vertex） 边（edge）
+
+26、 BFS ： create a queue called fringe. Steps:
+						Initialize the fringe(a queue with a starting vertex s ) and mark that vertex. Then Repeat until fringe is empty:
+					Remove vertex v from fringe
+					for each unmarked neighbor n of v : mark n, add n to fringe, see edgeTo[n]=v, set distTo[n] = distTo[v] + 1.
+
+27、 BFS VS DFS :
+	时间差不多
+	空间各有优劣
+
+28、trie : 每个节点有：char， 子节点map， 是否是key， root只有引导作用
+
+29、sorting ：
+		1、Selection Sort (每次找一个最小的，放到前面，然后找剩下的） O(n^2)
+		2、Naive Heapsort runtime：O（log N） space：θ（N）（一个一个插入）
+		2、In-place Heap Sort （直接添加元素之后sink）： runtime：O（N log N）space：θ（1） 
+		3、Merge Sort 递归实现，分两半，每一半都是sorted了的 每次复制一个两边中较小的一个
+		4、Insertion Sort:每次选一个插入output In-place：在原数组里面换位置，每次选一个插到前面 O(N^2)
+		
