@@ -137,4 +137,6 @@ step out：跳出函数
 		2、In-place Heap Sort （直接添加元素之后sink）： runtime：O（N log N）space：θ（1） 
 		3、Merge Sort 递归实现，分两半，每一半都是sorted了的 每次复制一个两边中较小的一个
 		4、Insertion Sort:每次选一个插入output In-place：在原数组里面换位置，每次选一个插到前面 O(N^2)
-		
+		5、Quick Sort：先选一个元素，让左边的都小，右边的都大。没一个元素都这样。 （partition-》less，equal，greater，catinate）
+30、类记得用.equals
+	
